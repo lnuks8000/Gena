@@ -68,7 +68,7 @@ async def handle_weather(message: Message):
     weather_data = await get_weather(city)
 
     if weather_data is None:
-        await message.answer("❌ Не удалось получить данные о погоде. Проверьте название города.")
+        await message.answer("❌ Не удалось получить данные о погоде. Проверьте название города.", reply_markup=get_city_keyboard())
         return
 
     response = (
