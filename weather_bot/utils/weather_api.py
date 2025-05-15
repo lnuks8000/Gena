@@ -5,7 +5,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-API_KEY = os.getenv("WEATHER_API_KEY")
+API_KEY = 'bc2dd8a033c91a5cc1868fead790695f'
 
 # Получаем погоду по API
 async def get_weather(city: str):
