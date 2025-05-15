@@ -10,7 +10,7 @@ from handlers import weather
 load_dotenv()
 
 # Получаем токен бота из .env
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = '7736461947:AAFoX5n2akwdFgKPKxvGl-7_rp73tFFQUKA'
 
 # Создаём экземпляры бота и диспетчера
 bot = Bot(token=BOT_TOKEN)
